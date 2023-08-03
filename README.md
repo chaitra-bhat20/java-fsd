@@ -1,2 +1,0 @@
-# java-fsd
-Java project
