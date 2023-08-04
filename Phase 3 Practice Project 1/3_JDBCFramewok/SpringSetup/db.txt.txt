@@ -1,0 +1,9 @@
+CREATE TABLE eproduct (
+    ID int,
+    name varchar(255),
+    price varchar(255),
+    date varchar(255)
+);
+
+insert into eproduct values(1,'chaitra',200,'10-10-2023');
+select * from eproduct;
