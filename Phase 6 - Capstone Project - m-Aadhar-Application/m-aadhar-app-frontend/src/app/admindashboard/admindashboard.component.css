@@ -1,0 +1,15 @@
+.list-group{
+    width: 45%;
+    margin-left: 22%;
+}
+.table{
+    width: 80%;
+    margin-left: 10%;
+    background: bisque;
+}
+.table tr th{
+    border: 2px solid black;
+}
+.table tr td{
+    border: 1px solid black;
+}
