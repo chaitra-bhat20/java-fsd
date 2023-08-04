@@ -1,3 +1,0 @@
-FROM openjdk:8
-COPY target/aadhar-backend.jar .
-CMD ["java","-jar","aadhar-backend.jar"]

@@ -1,7 +1,0 @@
-<div class="list-group">
-    <h2>Welcome to home page admin {{user}}</h2>
-    <a routerLink="/findAllAadhar" class="list-group-item list-group-item-action">View All Card</a>
-    <a [routerLink]='["/approveVerifyAadhar"]' [queryParams]="{page:'duplicate'}" class="list-group-item list-group-item-action">Verify Duplicate Aadhar Request</a>
-    <a [routerLink]='["/approveVerifyAadhar"]' [queryParams]="{page:'new'}" class="list-group-item list-group-item-action">Approve New Aadhar Request</a>
-    <a routerLink="/deleteAadhar" class="list-group-item list-group-item-action">Delete Aadhar</a>
-</div>
