@@ -1,0 +1,28 @@
+create database quizdb;
+
+create table quiz(id int primary key auto_increment, 
+title varchar(100),
+category varchar(20));
+
+create table user(name varchar(20),
+email varchar(50) primary key,
+password varchar(20));
+
+create table questions(id int primary key auto_increment,
+question varchar(250),
+option1 varchar(25),
+option2 varchar(25),
+option3 varchar(25),
+option4 varchar(25),
+answer varchar(25)
+); 
+
+use quizdb;
+
+show tables;
+
+select * from user;
+
+select * from questions;
+
+select *from quiz;
